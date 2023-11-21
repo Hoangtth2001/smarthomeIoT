@@ -1,0 +1,55 @@
+.login {
+	width: 100vw;
+	height: 100vh;
+	background: url("https://cdn.tgdd.vn/Files/2020/01/03/1229859/thiet-bi-nha-thong-minh-smarthome-la-gi-tai-sao-no-se-tro-thanh-xu-huong-cua-tuong-lai-.png");
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+
+	.loginform {
+
+		z-index: 2;
+		margin: 50px 360px;
+		padding: 50px 20px;
+
+		.form {
+			background-color: white;
+			border: 1px solid red;
+			border-radius: 5px;
+			padding: 50px 20px;
+			padding-right: 20px;
+			gap: 10px;
+			display: flex;
+			width: 480px;
+			flex-direction: column;
+		
+				h3{
+					color: red;
+					margin: auto;
+				}
+			.form-group {
+				input {
+					&:placeholder {
+						color: rgb(110, 109, 109);
+					}
+				}
+			}
+			.linkSign{
+				text-decoration: none;
+			}
+
+			.loginGG {
+
+				margin: auto;
+				cursor: pointer;
+
+				.ggicon {
+					margin: 10px;
+					font-size: 25px;
+
+				}
+			}
+
+		}
+	}
+}

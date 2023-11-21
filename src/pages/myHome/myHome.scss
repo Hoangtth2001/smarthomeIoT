@@ -1,0 +1,107 @@
+.myhome {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .temperature {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("https://th.bing.com/th/id/OIP.MHkJffxPCx4iVcbTaWLtAQHaEK?pid=ImgDet&rs=1");
+        background-size: cover;
+        height: 100vh;
+
+        .temper {
+            width: 500px;
+            justify-content: center;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                margin: 2px 10px;
+                padding-left: 10px;
+                justify-content: center;
+
+                .card-title,
+                .icon,
+                .card-text,
+                a,
+                h4 {
+                    margin: auto;
+                    margin-bottom: 5px;
+                }
+
+                .icon {
+                    font-size: 100px;
+                }
+
+                span {
+                    margin: auto;
+
+                    font-size: 16px;
+                    margin-bottom: 10px;
+
+                }
+
+                .note {
+                    margin: 5px auto;
+
+                }
+            }
+        }
+
+    }
+
+    .humidity {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("https://th.bing.com/th/id/OIP.MHkJffxPCx4iVcbTaWLtAQHaEK?pid=ImgDet&rs=1");
+        background-size: cover;
+
+        .humid {
+            width: 500px;
+
+            justify-content: center;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                margin: 2px 10px;
+                padding-left: 10px;
+                justify-content: center;
+
+                .card-title,
+                .icon,
+                .card-text,
+                a,
+                h4 {
+                    margin: auto;
+                    margin-bottom: 5px;
+                }
+
+                .icon {
+                    font-size: 100px;
+                }
+
+                span {
+                    margin: auto;
+
+                    font-size: 14px;
+                    margin-bottom: 10px;
+
+                }
+
+                .note {
+                    margin: 5px auto;
+
+                }
+            }
+
+        }
+
+    }
+
+
+}
