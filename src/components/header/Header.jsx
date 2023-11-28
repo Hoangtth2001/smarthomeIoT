@@ -21,7 +21,7 @@ const Header = ({ type }) => {
                     <ul className="navbar-nav ml-auto">
 
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Tran thanh Hoang <span className="sr-only"></span></a>
+                            <a className="nav-link" href="#">My Team <span className="sr-only"></span></a>
                         </li>
 
                         <li className="nav-item myhome-menu  dropdown">
